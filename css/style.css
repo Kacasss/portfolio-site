@@ -44,8 +44,8 @@ h1 {
   font-size: 32px;
   padding-top: 100px;
   padding: 20px;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid rgb(14, 42, 70);
+  border-bottom: 2px solid rgb(14, 42, 70);
 }
 
 section {
@@ -175,6 +175,22 @@ section h2 {
 
 .section-text p{
   text-align: left;
+}
+
+.section-text a {
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+  line-height: 20px;
+  padding: 20px;
+  background: rgb(14, 42, 70);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.section-text a:hover {
+  background: rgb(136, 154, 170);
 }
 
 span {
